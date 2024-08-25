@@ -6,3 +6,50 @@ body {
     margin: 0;
     padding: 0; 
 }
+
+#board {
+    width: 100%;
+    max-width: 600px;
+    height: 580px; 
+    margin: 20px auto;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+    background-color: yellow;
+    background-size: cover;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 0; 
+}
+
+
+@media (min-width: 768px) {
+    #board {
+        width: 60%; 
+        height: 580px; 
+        gap: 5%; 
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    #board {
+        height: 580px;
+        gap: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    #board {
+        grid-template-columns: repeat(2, 1fr); 
+        height: 600px;
+        gap: 5%; 
+    }
+}
+@media (max-width: 320px) {
+    #board {
+        grid-template-columns: repeat(2, 1fr); 
+        height: 580px; 
+        gap: 4%; 
+    }
+}

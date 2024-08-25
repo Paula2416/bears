@@ -1,5 +1,7 @@
+let currPlantTile;
 let currMoleTile;
-
+let score = 0;
+let gameOver = false;
 
 
 window.onload = function() {
@@ -26,7 +28,7 @@ function setPlant() {
         currPlantTile.innerHTML = "";
     }
     let plant = document.createElement("img");
-    // plant.src = "../assets/images/flabby2.png";
+     plant.src = "../assets/images/flabby2.png";
 
     let num = getRandomTile();
    
@@ -40,7 +42,7 @@ function setMole() {
         currMoleTile.innerHTML = "";
     }
     let mole = document.createElement("img");
-    // mole.src = "../assets/images/flabby.png";
+    mole.src = "../assets/images/flabby.png";
 
     let num = getRandomTile();
    

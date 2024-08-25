@@ -54,3 +54,18 @@ body {
         gap: 4%; 
     }
 }
+#board div {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(250, 250, 247);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}

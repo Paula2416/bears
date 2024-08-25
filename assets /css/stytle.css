@@ -1,7 +1,8 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: red;
+    /* background-color: red; */
+    background: url('../images/mainbg.jpg');
     background-size: cover;
     margin: 0;
     padding: 0; 
@@ -16,7 +17,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10%;
-    background-color: yellow;
+    background: url('../images/center.jpg');
     background-size: cover;
     border: 2px solid yellow;
     border-radius: 10px;
